@@ -52,4 +52,5 @@ The SDK can be stopped whenever needed by calling
 ## Contact
 
 If you are having trouble using the SDK, please contact us at support.sdk.ios@adhslx.com
+
 For commercial support, please write to vosdonnees@adhslx.com
