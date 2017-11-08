@@ -2,8 +2,8 @@
 DTSXY is a framework developed to collect relevant information about user's location to better fit its needs.
 
 ## Requirements
-iOS 9+
-CoreLocation framework
+* iOS 9+
+* CoreLocation framework
 
 ## CocoaPods
 To integrate DTSXY SDK into your Xcode project using CocoaPods, add into your pod file: 
@@ -39,7 +39,7 @@ import DTSXY
 [DataXY startDataXYWithDTSID:@"YOUR_CLIENT_ID_NUMBER" allowingBackgroundMode:NO];
 ```
 The client ID must be passed in order to init the SDK and start the location tracking. 
-Pass NO to backgroundMode parameter in order to save user battery (recommended configuration)
+Pass NO to backgroundMode parameter in order to save user battery (recommended configuration).
 If you pass YES, the SDK will perform continuous tracking and will have a significant 
 battery impact (60% in one day). 
 
@@ -49,7 +49,7 @@ The SDK can be stopped whenever needed by calling
 [DataXY stopDataXY];
 ```
 
-##Contact
+## Contact
 
 If you are having trouble using the SDK, please contact us at support.sdk.ios@adhslx.com
 For commercial support, please write to vosdonnees@adhslx.com
