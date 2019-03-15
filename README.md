@@ -36,9 +36,9 @@ import DTSXY
 ```
 5. In didFinishLaunchingWithOptions add the following statement:
 ```objective-c
-[DataXY startDataXYWithDTSID:@"YOUR_CLIENT_ID_NUMBER" allowingBackgroundMode:NO];
+[DataXYEngine startDataXYAllowingBackgroundMode:NO withLocationsID:@"YOUR_LOCATIONS_ID_NUMBER" withVisitsID:@"YOUR_VISITS_ID_NUMBER"];
 ```
-The client ID must be passed in order to init the SDK and start the location tracking. 
+The locations ID and the the visits ID must be passed in order to init the SDK and start the location tracking. 
 Pass NO to backgroundMode parameter in order to save user battery (recommended configuration).
 If you pass YES, the SDK will perform continuous tracking and will have a significant 
 battery impact (60% in one day). 
@@ -46,7 +46,7 @@ battery impact (60% in one day).
 6. Stop the SDK
 The SDK can be stopped whenever needed by calling
 ```objective-c
-[DataXY stopDataXY];
+[DataXYEngine stopDataXY];
 ```
 
 ## Contact
