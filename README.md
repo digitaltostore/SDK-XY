@@ -2,7 +2,7 @@
 DTSXY is a framework developed to collect relevant information about user's location to better fit its needs.
 
 ## Requirements
-* iOS 9+
+* iOS 10+
 * CoreLocation framework
 
 ## CocoaPods
