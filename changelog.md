@@ -2,6 +2,16 @@
 What's new?
 ===========
 
+[6.1934]
+* Rename method disableMappyLogs to disableAnonymousStudiesLogs
+  + (void)disableAnonymousStudiesLogs:(BOOL)disabled;
+* Add new method
+  + (void)disableAdvertisingLogs:(BOOL)disabled;
+* Add new method
+  + (void)setConsents:(nonnull NSDictionary<NSString *,NSNumber *> *)consents;
+* Add new method
+  + (void)setCustomHostForLocations:(nullable NSString *)locationsHost forVisits:(nullable NSString *)visitsHost;
+
 [6.1914]
 * The SDK now send also logs to Mappy by default
 * Change start method signature with two mandatory parameters : locationsID and visitsID
