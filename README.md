@@ -1,5 +1,5 @@
 # Documentation SDK DataXY
-DTSXY is a framework developed to collect relevant information about user's location to better fit its needs.
+DataXY is a framework developed to collect relevant information about user's location to better fit its needs.
 
 ## Requirements
 * iOS 10+
