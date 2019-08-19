@@ -1,4 +1,4 @@
-# Documentation SDK DTSXY
+# Documentation SDK DataXY
 DTSXY is a framework developed to collect relevant information about user's location to better fit its needs.
 
 ## Requirements
@@ -6,11 +6,11 @@ DTSXY is a framework developed to collect relevant information about user's loca
 * CoreLocation framework
 
 ## CocoaPods
-To integrate DTSXY SDK into your Xcode project using CocoaPods, add into your pod file: 
+To integrate DataXY SDK into your Xcode project using CocoaPods, add into your pod file: 
 ```
 source 'https://github.com/digitaltostore/specXY.git'
 . . .
-pod 'DTSXY'
+pod 'DataXY'
 ```
 
 ## Getting started
@@ -28,11 +28,11 @@ Those keys declare why you are requesting location and will be shown to the user
 4. In your AppDelegate, import the framework:
 For ObjC project:
 ```objective-c
-#import <DTSXY/DTSXY.h>
+@import DataXY;
 ```
 or for swift project:
 ```swift
-import DTSXY
+import DataXY
 ```
 5. In didFinishLaunchingWithOptions add the following statement:
 ```objective-c
